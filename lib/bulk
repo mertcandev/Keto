@@ -1,0 +1,58 @@
+Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Tatlilar()));
+
+
+                    Container(
+              width: MediaQuery.of(context).size.width,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  colorFilter: ColorFilter.mode(
+                    Colors.black.withOpacity(0.35),
+                    BlendMode.multiply,
+                  ),
+                  image: NetworkImage(
+                      "https://www.seekpng.com/png/detail/763-7637762_cake-png-vector-cake-flat-vector-png.png"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            )
+
+            InkWell(
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  child: Row(
+                    children: [
+                      InkWell(
+                        child: Container(
+                          width: MediaQuery.of(context).size.width,
+                          child: RecipeCard(
+                              title: "Enginar Sufle",
+                              cookTime: "30 Dakika",
+                              rating: "5",
+                              thumbnailUrl:
+                                  "https://i.lezzet.com.tr/images-xxlarge-recipe/enginar-sufle-6c295cb8-e2f0-4807-93a0-58bf8125decf.jpg"),
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => TarifDetay(
+                                      tarifIsim: "Keto Pankek",
+                                      kacKisilik: "4 Kişilik",
+                                      sure: "20 Dakika",
+                                      malzemelerBaslik:
+                                          "Keto Pankek için malzemeler",
+                                      malzemeler:
+                                          "4 yumurta, 200 gr. süzme peynir, ,1 yemek kaşığı öğütülmüş karnıyarık otu tohumu tozu (psyllium husk), 50 gr tereyağı veya hindistan cevizi yağı, 50 gr taze ahududu, taze yaban mersini veya taze çilek, 1 su bardağı krema",
+                                      yapilisBaslik:
+                                          "Keto Pankek nasıl yapılır?",
+                                      yapilisAnlatim:
+                                          "Orta boy bir kaseye yumurta, süzme peynir ve karnıyarık otu tohumu tozunu ekleyin ve karıştırın. Biraz yoğunlaşması için 5-10 dakika bekletin. Yapışmaz bir tavada tereyağı veya yağı ısıtın. Kreplerin her iki tarafını 3-4 dakika orta-düşük ısıda kızartın. Çok büyük yapmayın yoksa ters çevirmek zor olacaktır. Ayrı bir kaseye krema ekleyin ve köpükler oluşana kadar çırpın. Krepleri çırpılmış krema ve seçtiğiniz meyveler ile servis edin.",
+                                      gorselUrl:
+                                          "https://banafikirver.com/images/posts/2020/06/post-1591141860-3254-keto-pankek.webp")));
+                        },
+                      ),
+                    ],
+                  ),
+                ),
+              ),
