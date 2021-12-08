@@ -56,3 +56,16 @@ Navigator.push(context,
                   ),
                 ),
               ),
+
+              InkWell(
+                    child: Container(
+                        height: MediaQuery.of(context).size.height / 5,
+                        width: MediaQuery.of(context).size.width,
+                        child: RecipeCard(title: title, cookTime: cookTime, rating: rating, thumbnailUrl: thumbnailUrl)),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => TarifDetay(tarifIsim: tarifIsim, kacKisilik: kacKisilik, sure: sure, malzemelerBaslik: malzemelerBaslik, malzemeler: malzemeler, yapilisBaslik: yapilisBaslik, yapilisAnlatim: yapilisAnlatim, gorselUrl: gorselUrl)));
+                    },
+                  ),

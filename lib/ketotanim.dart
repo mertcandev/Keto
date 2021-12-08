@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fadein/flutter_fadein.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:marquee/marquee.dart';
 
@@ -17,92 +18,116 @@ class KetoTanim extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-                  child: Text(
-                    "Ketojenik Diyet Nedir?",
-                    style: GoogleFonts.firaSans(
-                        textStyle: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.bold)),
-                    textAlign: TextAlign.center,
-                    softWrap: true,
+                  child: FadeIn(
+                    duration: Duration(milliseconds: 400),
+                    child: Text(
+                      "Ketojenik Diyet Nedir?",
+                      style: GoogleFonts.firaSans(
+                          textStyle: TextStyle(
+                              fontSize: 16, fontWeight: FontWeight.bold)),
+                      textAlign: TextAlign.center,
+                      softWrap: true,
+                    ),
                   ),
                 ),
               ),
               Container(
-                child: Text(
-                  "Adını, yağ metabolizmasının son ürünleri olan keton cisimciklerinden alan ketojenik diyet, günlük alınan enerjinin en az %60’ı yağ kaynaklarından gelecek şekilde planlanan, karbonhidrat alımını çok çok düşürerek vücudu ketozis isimli metabolik duruma sokmayı amaçlayan, ancak uzman kontrolünde ve tedavi amaçlı kullanıldığı takdirde olumlu etkileri olan bir beslenme modelidir.",
-                  style: GoogleFonts.firaSans(
-                      textStyle: TextStyle(
-                          fontSize: 14, fontWeight: FontWeight.normal)),
-                  textAlign: TextAlign.center,
+                child: FadeIn(
+                  duration: Duration(milliseconds: 700),
+                  child: Text(
+                    "Adını, yağ metabolizmasının son ürünleri olan keton cisimciklerinden alan ketojenik diyet, günlük alınan enerjinin en az %60’ı yağ kaynaklarından gelecek şekilde planlanan, karbonhidrat alımını çok çok düşürerek vücudu ketozis isimli metabolik duruma sokmayı amaçlayan, ancak uzman kontrolünde ve tedavi amaçlı kullanıldığı takdirde olumlu etkileri olan bir beslenme modelidir.",
+                    style: GoogleFonts.firaSans(
+                        textStyle: TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.normal)),
+                    textAlign: TextAlign.center,
+                  ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-                  child: Text(
-                    "Ketojenik Diyet Ne Yapıyor?",
-                    style: GoogleFonts.firaSans(
-                        textStyle: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.bold)),
-                    textAlign: TextAlign.center,
-                    softWrap: true,
+                  child: FadeIn(
+                    duration: Duration(milliseconds: 1000),
+                    child: Text(
+                      "Ketojenik Diyet Ne Yapıyor?",
+                      style: GoogleFonts.firaSans(
+                          textStyle: TextStyle(
+                              fontSize: 16, fontWeight: FontWeight.bold)),
+                      textAlign: TextAlign.center,
+                      softWrap: true,
+                    ),
                   ),
                 ),
               ),
               Container(
-                child: Text(
-                  "Bilindiği üzere metabolizmanın öncelikli enerji kaynağı karbonhidratlardır. Ancak yeterli karbonhidrat bulunamadığı takdirde yağlar ve son çare olarak da proteinler kullanılır. Ketojenik beslenme modeli karbonhidratı kesip yerine yağ koyarak vücudun enerji kaynağının yağ olmasını sağlar.",
-                  style: GoogleFonts.firaSans(
-                      textStyle: TextStyle(
-                          fontSize: 14, fontWeight: FontWeight.normal)),
-                  textAlign: TextAlign.center,
-                  softWrap: true,
+                child: FadeIn(
+                  duration: Duration(milliseconds: 1300),
+                  child: Text(
+                    "Bilindiği üzere metabolizmanın öncelikli enerji kaynağı karbonhidratlardır. Ancak yeterli karbonhidrat bulunamadığı takdirde yağlar ve son çare olarak da proteinler kullanılır. Ketojenik beslenme modeli karbonhidratı kesip yerine yağ koyarak vücudun enerji kaynağının yağ olmasını sağlar.",
+                    style: GoogleFonts.firaSans(
+                        textStyle: TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.normal)),
+                    textAlign: TextAlign.center,
+                    softWrap: true,
+                  ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-                  child: Text(
-                    "Neden ketojenik diyet?",
-                    style: GoogleFonts.firaSans(
-                        textStyle: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.bold)),
-                    textAlign: TextAlign.center,
-                    softWrap: true,
+                  child: FadeIn(
+                    duration: Duration(milliseconds: 1600),
+                    child: Text(
+                      "Neden ketojenik diyet?",
+                      style: GoogleFonts.firaSans(
+                          textStyle: TextStyle(
+                              fontSize: 16, fontWeight: FontWeight.bold)),
+                      textAlign: TextAlign.center,
+                      softWrap: true,
+                    ),
                   ),
                 ),
               ),
               Container(
-                child: Text(
-                  "Ketojenik diyet aslında bir tedavi yöntemidir. Uzman takibinde, kontrollü aşamalarla uygulanmalı ve gerektiğinde sonlandırılmalıdır. Epilepsi, Alzheimer, Parkinson gibi nörolojik hastalıklar; diyabet, insülin direnci, hipertansiyon, kan yağlarında yükseklik gibi metabolik problemler ve perhiz diyetlerinde kullanılmış ve iyileştirici etkileri birçok çalışmayla kanıtlanmıştır.?",
-                  style: GoogleFonts.firaSans(
-                      textStyle: TextStyle(
-                          fontSize: 14, fontWeight: FontWeight.normal)),
-                  textAlign: TextAlign.center,
-                  softWrap: true,
+                child: FadeIn(
+                  duration: Duration(milliseconds: 1900),
+                  child: Text(
+                    "Ketojenik diyet aslında bir tedavi yöntemidir. Uzman takibinde, kontrollü aşamalarla uygulanmalı ve gerektiğinde sonlandırılmalıdır. Epilepsi, Alzheimer, Parkinson gibi nörolojik hastalıklar; diyabet, insülin direnci, hipertansiyon, kan yağlarında yükseklik gibi metabolik problemler ve perhiz diyetlerinde kullanılmış ve iyileştirici etkileri birçok çalışmayla kanıtlanmıştır.?",
+                    style: GoogleFonts.firaSans(
+                        textStyle: TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.normal)),
+                    textAlign: TextAlign.center,
+                    softWrap: true,
+                  ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-                  child: Text(
-                    "Alzheimer gibi nörolojik hastalıklardaki rolü nedir?",
-                    style: GoogleFonts.firaSans(
-                        textStyle: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.bold)),
-                    textAlign: TextAlign.center,
-                    softWrap: true,
+                  child: FadeIn(
+                    duration: Duration(milliseconds: 2200),
+                    child: Text(
+                      "Alzheimer gibi nörolojik hastalıklardaki rolü nedir?",
+                      style: GoogleFonts.firaSans(
+                          textStyle: TextStyle(
+                              fontSize: 16, fontWeight: FontWeight.bold)),
+                      textAlign: TextAlign.center,
+                      softWrap: true,
+                    ),
                   ),
                 ),
               ),
               Container(
-                child: Text(
-                  "Alzheimer benzeri bunama hastalıklarının ana sebebi beyin dokusunda bozulmuş karbonhidrat metabolizmasıdır. Günümüzde tip3 diyabet diye de adlandırılan; beyin hücrelerinde insülin direnci oluşması durumuyla, beyin hücreleri enerji kaynağı olarak kullandığı glikozu hücre içine alamadığı için kullanamaz ve enerji üretemez. Hücrelere giremeyen glikozun dokulara baskı yapmasıyla beyin dokusu zarar görürken; enerji üretemeyen dokular hasarlarını onaramaz. Sonuç olarak yaşlanmanın bir kuralı sandığımız demans hastalıkları kendini göstermeye başlar. Ketojenik diyetin bu tedavideki rolü glikozu ortadan kaldırarak beyin hücrelerinin keton cisimciklerinden enerji üretmesini sağlamaktır. Böylece beyin dokusu temiz bir yoldan ve yüksek miktarda enerji üreterek kendini onarmaya olanak bulmuş olur. Bu tip bir tedavi amacıyla kullanılan ketojenik diyet listesi genelde %90 oranında yağdan oluşur.",
-                  style: GoogleFonts.firaSans(
-                      textStyle: TextStyle(
-                          fontSize: 14, fontWeight: FontWeight.normal)),
-                  textAlign: TextAlign.center,
-                  softWrap: true,
+                child: FadeIn(
+                  duration: Duration(milliseconds: 2500),
+                  child: Text(
+                    "Alzheimer benzeri bunama hastalıklarının ana sebebi beyin dokusunda bozulmuş karbonhidrat metabolizmasıdır. Günümüzde tip3 diyabet diye de adlandırılan; beyin hücrelerinde insülin direnci oluşması durumuyla, beyin hücreleri enerji kaynağı olarak kullandığı glikozu hücre içine alamadığı için kullanamaz ve enerji üretemez. Hücrelere giremeyen glikozun dokulara baskı yapmasıyla beyin dokusu zarar görürken; enerji üretemeyen dokular hasarlarını onaramaz. Sonuç olarak yaşlanmanın bir kuralı sandığımız demans hastalıkları kendini göstermeye başlar. Ketojenik diyetin bu tedavideki rolü glikozu ortadan kaldırarak beyin hücrelerinin keton cisimciklerinden enerji üretmesini sağlamaktır. Böylece beyin dokusu temiz bir yoldan ve yüksek miktarda enerji üreterek kendini onarmaya olanak bulmuş olur. Bu tip bir tedavi amacıyla kullanılan ketojenik diyet listesi genelde %90 oranında yağdan oluşur.",
+                    style: GoogleFonts.firaSans(
+                        textStyle: TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.normal)),
+                    textAlign: TextAlign.center,
+                    softWrap: true,
+                  ),
                 ),
               ),
               Padding(
@@ -174,7 +199,6 @@ class KetoTanim extends StatelessWidget {
                             fontSize: 14, fontWeight: FontWeight.normal)),
                     textAlign: TextAlign.center,
                     softWrap: true,
-                    
                   ),
                 ),
               ),

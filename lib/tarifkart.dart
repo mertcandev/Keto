@@ -29,7 +29,7 @@ class RecipeCard extends StatelessWidget {
                 0.0,
                 10.0,
               ),
-              blurRadius: 10.0,
+              blurRadius: 5.0,
               spreadRadius: -6.0,
             ),
           ],

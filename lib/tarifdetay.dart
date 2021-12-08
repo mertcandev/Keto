@@ -85,8 +85,8 @@ class TarifDetay extends StatelessWidget {
                         child: Text(kacKisilik,
                             style: const TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 14,
-                                color: Colors.black54)),
+                                fontSize: 16,
+                                color: Colors.black45)),
                       ),
                     ),
                     FadeIn(
@@ -94,8 +94,8 @@ class TarifDetay extends StatelessWidget {
                       child: Text(sure,
                           style: const TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 14,
-                              color: Colors.black54)),
+                              fontSize: 16,
+                              color: Colors.black45)),
                     ),
                   ],
                 ),
@@ -118,7 +118,7 @@ class TarifDetay extends StatelessWidget {
                                     child: Text(
                                       malzemelerBaslik,
                                       style: const TextStyle(
-                                        fontSize: 15,
+                                        fontSize: 17,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
@@ -129,7 +129,7 @@ class TarifDetay extends StatelessWidget {
                                   child: Text(
                                     malzemeler,
                                     style: TextStyle(
-                                        fontSize: 14,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.normal),
                                   ),
                                 ),
@@ -148,7 +148,7 @@ class TarifDetay extends StatelessWidget {
                                     child: Text(
                                       yapilisBaslik,
                                       style: const TextStyle(
-                                        fontSize: 15,
+                                        fontSize: 17,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
@@ -157,6 +157,9 @@ class TarifDetay extends StatelessWidget {
                                 FadeIn(
                                   duration: Duration(milliseconds: 1500),
                                   child: Text(yapilisAnlatim,
+                                      style: TextStyle(
+                                          fontSize: 15,
+                                          fontWeight: FontWeight.normal),
                                       overflow: TextOverflow.visible),
                                 ),
                               ],
