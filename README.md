@@ -26,7 +26,7 @@
 <div align="center">
  
 
-<h3 align="center">Flutter Codelab P4 </h3>
+<h3 align="center">Keto </h3>
 
   <p align="center">
     Code Template for a Keto Recipes App
